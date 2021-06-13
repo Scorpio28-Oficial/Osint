@@ -90,6 +90,9 @@ echo -e -n "${azul}
 ┌════════════════════┐
 █ [${cyan}19${azul}] ${cyan}BLACKKYTETECH ${azul}█
 └════════════════════┘
+┌════════════┐
+█ [${cyan}20${azul}] ${cyan}SALIR ${azul}█
+└════════════┘
 ┃
 └═>>> "${cyan}
 read -r Opcion_Osint
@@ -161,6 +164,10 @@ case $Opcion_Osint in
 		;;
 	19)
 		termux-open https://blackkitetech.com/community/
+
+        20)
+                ;;
+                termux-open exit
 esac
 
 while :
