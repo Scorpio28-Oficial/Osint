@@ -9,7 +9,7 @@ __INSTALACIÓN:__
 
 - pkg install -y git
 
-- git clone https://github.com/Scorpio28-Official/Osint
+- git clone https://github.com/Scorpio28-Oficial/Osint
 
 - cd Osint
 
