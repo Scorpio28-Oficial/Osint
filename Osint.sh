@@ -119,47 +119,47 @@ case $Opcion_Osint in
 		;;
 	5)
 		termux-open https://www.controlescolar.aefcm.gob.mx:8010/ConsultaBoleta/
-                ;;
+		;;
 	6)
 		termux-open https://leak.sx
 		;;
 	7)
 		termux-open https://intelx.io
-                ;;
+		;;
 	8)
 		termux-open https://4iq.com
 		;;
 	9)
 		termux-open https://vigilante.pw
-                ;;
-       10)
+		;;
+	10)
 		termux-open https://leakcheck.net/
 		;;
-       11)
+	11)
 		termux-open https://weleakinfo.to
-                ;;
-       12)
+		;;
+	12)
 		termux-open https://leakpeek.com
 		;;
-       13)
+	13)
 		termux-open https://rslookup.com/index
-                ;;
-       14)
+		;;
+	14)
 		termux-open https://snusbase.com
 		;;
-       15)
+	15)
 		termux-open https://leakedsource.ru/
-                ;;
-       16)
+		;;
+	16)
 		termux-open https://leak-lookup.com
 		;;
-       17)
+	17)
 		termux-open https://breachchecker.com/?language=es
-                ;;
-       18)
+		;;
+	18)
 		termux-open https://haveibeenpwned.com/
 		;;
-       19)
+	19)
 		termux-open https://blackkitetech.com/community/
 esac
 
