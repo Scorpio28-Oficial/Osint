@@ -48,6 +48,48 @@ echo -e -n "${azul}
 ┌══════════════════════════════════════════┐
 █ [${cyan}5${azul}] ${cyan}BOLETAS DE EVALUACIÓN Y CERTIFICADOS ${azul}█
 └══════════════════════════════════════════┘
+┌═════════════┐
+█ [${cyan}6${azul}] ${cyan}LEAK SX ${azul}█
+└═════════════┘
+┌════════════════════┐
+█ [${cyan}7${azul}] ${cyan}INTELIGENCIA X ${azul}█
+└════════════════════┘
+┌═════════┐
+█ [${cyan}8${azul}] ${cyan}4IQ ${azul}█
+└═════════┘
+┌══════════════════┐
+█ [${cyan}9${azul}] ${cyan}VIGILANTE PW ${azul}█
+└══════════════════┘
+┌════════════════┐
+█ [${cyan}10${azul}] ${cyan}LEAKCHECK ${azul}█
+└════════════════┘
+┌═════════════════┐
+█ [${cyan}11${azul}] ${cyan}WELEAKINFO ${azul}█
+└═════════════════┘
+┌═══════════════┐
+█ [${cyan}12${azul}] ${cyan}LEAKPEEK ${azul}█
+└═══════════════┘
+┌═══════════════┐
+█ [${cyan}13${azul}] ${cyan}RSLOOKUP ${azul}█
+└═══════════════┘
+┌═══════════════┐
+█ [${cyan}14${azul}] ${cyan}SNUSBASE ${azul}█
+└═══════════════┘
+┌═══════════════┐
+█ [${cyan}15${azul}] ${cyan}LEAKEDSOURERCE ${azul}█
+└═══════════════┘
+┌══════════════════┐
+█ [${cyan}16${azul}] ${cyan}LEAK-LOOKUP ${azul}█
+└══════════════════┘
+┌════════════════════┐
+█ [${cyan}17${azul}] ${cyan}BREACHCHECHER ${azul}█
+└════════════════════┘
+┌═════════════════════┐
+█ [${cyan}18${azul}] ${cyan}HAVEIBEENPWNED ${azul}█
+└═════════════════════┘
+┌════════════════════┐
+█ [${cyan}19${azul}] ${cyan}BLACKKYTETECH ${azul}█
+└════════════════════┘
 ┃
 └═>>> "${cyan}
 read -r Opcion_Osint
@@ -77,6 +119,48 @@ case $Opcion_Osint in
 		;;
 	5)
 		termux-open https://www.controlescolar.aefcm.gob.mx:8010/ConsultaBoleta/
+                ;;
+	6)
+		termux-open https://leak.sx
+		;;
+	7)
+		termux-open https://intelx.io
+                ;;
+	8)
+		termux-open https://4iq.com
+		;;
+	9)
+		termux-open https://vigilante.pw
+                ;;
+	10)
+		termux-open https://leakcheck.net/
+		;;
+	11)
+		termux-open https://weleakinfo.to
+                ;;
+	12)
+		termux-open https://leakpeek.com
+		;;
+	13)
+		termux-open https://rslookup.com/index
+                ;;
+	14)
+		termux-open https://snusbase.com
+		;;
+	15)
+		termux-open https://leakedsource.ru/
+                ;;
+	16)
+		termux-open https://leak-lookup.com
+		;;
+	17)
+		termux-open https://breachchecker.com/?language=es
+                ;;
+	18)
+		termux-open https://haveibeenpwned.com/
+		;;
+	19)
+		termux-open https://blackkitetech.com/community/
 esac
 
 while :
