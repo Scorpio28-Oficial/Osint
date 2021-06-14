@@ -29,67 +29,40 @@ while :
 do
 Osint
 echo -e -n "${azul}
-┌═════════════════════════════┐
-█ ${cyan}ELIJA UNA OPCIÓN Y DE ENTER ${azul}█
-└═════════════════════════════┘
-
-┌═══════════════════┐
-█ [${cyan}1${azul}] ${cyan}CIBERPATRULLA ${azul}█
-└═══════════════════┘
-┌════════════════┐
-█ [${cyan}2${azul}] ${cyan}DUCKDUCKGO ${azul}█
-└════════════════┘
-┌═══════════════════════════════┐
-█ [${cyan}3${azul}] ${cyan}NUMERO DE TELEFONO GLOBAL ${azul}█
-└═══════════════════════════════┘
-┌═════════════════════════┐
-█ [${cyan}4${azul}] ${cyan}NOMBRES DE USUARIOS ${azul}█
-└═════════════════════════┘
-┌══════════════════════════════════════════┐
-█ [${cyan}5${azul}] ${cyan}BOLETAS DE EVALUACIÓN Y CERTIFICADOS ${azul}█
-└══════════════════════════════════════════┘
-┌═════════════┐
-█ [${cyan}6${azul}] ${cyan}LEAK SX ${azul}█
-└═════════════┘
-┌════════════════════┐
-█ [${cyan}7${azul}] ${cyan}INTELIGENCIA X ${azul}█
-└════════════════════┘
-┌═════════┐
-█ [${cyan}8${azul}] ${cyan}4IQ ${azul}█
-└═════════┘
-┌══════════════════┐
-█ [${cyan}9${azul}] ${cyan}VIGILANTE PW ${azul}█
-└══════════════════┘
+                   ┌═════════════════════════════┐
+            ┌══════█ ${cyan}ELIJA UNA OPCIÓN Y DE ENTER ${azul}█══════┐
+            █      └═════════════════════════════┘       █
+            █                                            █
+┌═══════════════════┐                           ┌═════════════════┐
+█ [${cyan}1${azul}] ${cyan}CIBERPATRULLA ${azul}█                           █ [${cyan}11${azul}] ${cyan}WELEAKINFO ${azul}█
+└═══════════════════┘                           └═════════════════┘
+┌════════════════┐                              ┌═══════════════┐
+█ [${cyan}2${azul}] ${cyan}DUCKDUCKGO ${azul}█                              █ [${cyan}12${azul}] ${cyan}LEAKPEEK ${azul}█
+└════════════════┘                              └═══════════════┘
+┌═══════════════════════════════┐               ┌═══════════════┐
+█ [${cyan}3${azul}] ${cyan}NUMERO DE TELEFONO GLOBAL ${azul}█               █ [${cyan}13${azul}] ${cyan}RSLOOKUP ${azul}█
+└═══════════════════════════════┘               └═══════════════┘
+┌═════════════════════════┐                     ┌═══════════════┐
+█ [${cyan}4${azul}] ${cyan}NOMBRES DE USUARIOS ${azul}█                     █ [${cyan}14${azul}] ${cyan}SNUSBASE ${azul}█
+└═════════════════════════┘                     └═══════════════┘
+┌══════════════════════════════════════════┐    ┌═════════════════════┐
+█ [${cyan}5${azul}] ${cyan}BOLETAS DE EVALUACIÓN Y CERTIFICADOS ${azul}█    █ [${cyan}15${azul}] ${cyan}LEAKEDSOURERCE ${azul}█
+ └══════════════════════════════════════════┘   └═════════════════════┘
+┌═════════════┐                                 ┌══════════════════┐
+█ [${cyan}6${azul}] ${cyan}LEAK SX ${azul}█                                 █ [${cyan}16${azul}] ${cyan}LEAK-LOOKUP ${azul}█
+└═════════════┘                                 └══════════════════┘
+┌════════════════════┐                          ┌════════════════════┐
+█ [${cyan}7${azul}] ${cyan}INTELIGENCIA X ${azul}█                          █ [${cyan}17${azul}] ${cyan}BREACHCHECHER ${azul}█
+└════════════════════┘                          └════════════════════┘
+┌═════════┐                                     ┌═════════════════════┐
+█ [${cyan}8${azul}] ${cyan}4IQ ${azul}█                                     █ [${cyan}18${azul}] ${cyan}HAVEIBEENPWNED ${azul}█
+└═════════┘                                     └═════════════════════┘
+┌══════════════════┐                            ┌════════════════════┐
+█ [${cyan}9${azul}] ${cyan}VIGILANTE PW ${azul}█                            █ [${cyan}19${azul}] ${cyan}BLACKKYTETECH ${azul}█
+└══════════════════┘                            └════════════════════┘
 ┌════════════════┐
 █ [${cyan}10${azul}] ${cyan}LEAKCHECK ${azul}█
 └════════════════┘
-┌═════════════════┐
-█ [${cyan}11${azul}] ${cyan}WELEAKINFO ${azul}█
-└═════════════════┘
-┌═══════════════┐
-█ [${cyan}12${azul}] ${cyan}LEAKPEEK ${azul}█
-└═══════════════┘
-┌═══════════════┐
-█ [${cyan}13${azul}] ${cyan}RSLOOKUP ${azul}█
-└═══════════════┘
-┌═══════════════┐
-█ [${cyan}14${azul}] ${cyan}SNUSBASE ${azul}█
-└═══════════════┘
-┌═════════════════════┐
-█ [${cyan}15${azul}] ${cyan}LEAKEDSOURERCE ${azul}█
-└═════════════════════┘
-┌══════════════════┐
-█ [${cyan}16${azul}] ${cyan}LEAK-LOOKUP ${azul}█
-└══════════════════┘
-┌════════════════════┐
-█ [${cyan}17${azul}] ${cyan}BREACHCHECHER ${azul}█
-└════════════════════┘
-┌═════════════════════┐
-█ [${cyan}18${azul}] ${cyan}HAVEIBEENPWNED ${azul}█
-└═════════════════════┘
-┌════════════════════┐
-█ [${cyan}19${azul}] ${cyan}BLACKKYTETECH ${azul}█
-└════════════════════┘
 ┃
 └═>>> "${cyan}
 read -r Opcion_Osint
