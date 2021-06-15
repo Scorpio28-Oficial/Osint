@@ -15,12 +15,12 @@ function Osint {
 	sleep 0.5
 	clear
 echo -e "${verde}
-${azul}╭━━━╮╭━━━╮╭━━╮${cyan}╭━╮ ╭╮╭━━━━╮
-${azul}┃╭━╮┃┃╭━╮┃╰┫┣╯${cyan}┃┃╰╮┃┃┃╭╮╭╮┃
-${azul}┃┃ ┃┃┃╰━━╮ ┃┃ ${cyan}┃╭╮╰╯┃╰╯┃┃╰╯
-${azul}┃┃ ┃┃╰━━╮┃ ┃┃ ${cyan}┃┃╰╮┃┃  ┃┃  
-${azul}┃╰━╯┃┃╰━╯┃╭┫┣╮${cyan}┃┃ ┃┃┃  ┃┃  
-${azul}╰━━━╯╰━━━╯╰━━╯${cyan}╰╯ ╰━╯  ╰╯  WEB"${azul}
+${verde}╭━━━╮╭━━━╮╭━━╮${negro}╭━╮ ╭╮╭━━━━╮
+${verde}┃╭━╮┃┃╭━╮┃╰┫┣╯${negro}┃┃╰╮┃┃┃╭╮╭╮┃
+${verde}┃┃ ┃┃┃╰━━╮ ┃┃ ${negro}┃╭╮╰╯┃╰╯┃┃╰╯
+${verde}┃┃ ┃┃╰━━╮┃ ┃┃ ${negro}┃┃╰╮┃┃  ┃┃  
+${verde}┃╰━╯┃┃╰━╯┃╭┫┣╮${negro}┃┃ ┃┃┃  ┃┃  
+${verde}╰━━━╯╰━━━╯╰━━╯${negro}╰╯ ╰━╯  ╰╯  WEB"${azul}
 }
 #
 # CÓDIGO
@@ -28,50 +28,50 @@ ${azul}╰━━━╯╰━━━╯╰━━╯${cyan}╰╯ ╰━╯  ╰╯
 while :
 do
 Osint
-echo -e -n "${azul}
+echo -e -n "${negro}
                    ┌═════════════════════════════┐
-            ┌══════█ ${cyan}ELIJA UNA OPCIÓN Y DE ENTER ${azul}█══════┐
+            ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐
             █      └═════════════════════════════┘       █
             █                                            █
 ┌═══════════════════┐                           ┌═════════════════┐
-█ [${cyan}1${azul}] ${cyan}CIBERPATRULLA ${azul}█                           █ [${cyan}11${azul}] ${cyan}WELEAKINFO ${azul}█
+█ [${verde}1${negro}] ${blanco}CIBERPATRULLA ${negro}█                           █ [${verde}11${negro}] ${blanco}WELEAKINFO ${negro}█
 └═══════════════════┘                           └═════════════════┘
 ┌════════════════┐                              ┌═══════════════┐
-█ [${cyan}2${azul}] ${cyan}DUCKDUCKGO ${azul}█                              █ [${cyan}12${azul}] ${cyan}LEAKPEEK ${azul}█
+█ [${verde}2${negro}] ${blanco}DUCKDUCKGO ${negro}█                              █ [${verde}12${negro}] ${blanco}LEAKPEEK ${negro}█
 └════════════════┘                              └═══════════════┘
 ┌═══════════════════════════════┐               ┌═══════════════┐
-█ [${cyan}3${azul}] ${cyan}NUMERO DE TELEFONO GLOBAL ${azul}█               █ [${cyan}13${azul}] ${cyan}RSLOOKUP ${azul}█
+█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█               █ [${verde}13${negro}] ${blanco}RSLOOKUP ${negro}█
 └═══════════════════════════════┘               └═══════════════┘
 ┌═════════════════════════┐                     ┌═══════════════┐
-█ [${cyan}4${azul}] ${cyan}NOMBRES DE USUARIOS ${azul}█                     █ [${cyan}14${azul}] ${cyan}SNUSBASE ${azul}█
+█ [${verde}4${negro}] ${blanco}NOMBRES DE USUARIOS ${negro}█                     █ [${verde}14${negro}] ${blanco}SNUSBASE ${negro}█
 └═════════════════════════┘                     └═══════════════┘
 ┌══════════════════════════════════════════┐    ┌═════════════════════┐
-█ [${cyan}5${azul}] ${cyan}BOLETAS DE EVALUACIÓN Y CERTIFICADOS ${azul}█    █ [${cyan}15${azul}] ${cyan}LEAKEDSOURERCE ${azul}█
+█ [${verde}5${negro}] ${blanco}BOLETAS DE EVALUACIÓN Y CERTIFICADOS ${negro}█    █ [${verde}15${negro}] ${blanco}LEAKEDSOURERCE ${negro}█
 └══════════════════════════════════════════┘    └═════════════════════┘
 ┌═════════════┐                                 ┌══════════════════┐
-█ [${cyan}6${azul}] ${cyan}LEAK SX ${azul}█                                 █ [${cyan}16${azul}] ${cyan}LEAK-LOOKUP ${azul}█
+█ [${verde}6${negro}] ${blanco}LEAK SX ${negro}█                                 █ [${verde}16${negro}] ${blanco}LEAK-LOOKUP ${negro}█
 └═════════════┘                                 └══════════════════┘
 ┌════════════════════┐                          ┌════════════════════┐
-█ [${cyan}7${azul}] ${cyan}INTELIGENCIA X ${azul}█                          █ [${cyan}17${azul}] ${cyan}BREACHCHECHER ${azul}█
+█ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                          █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
 └════════════════════┘                          └════════════════════┘
 ┌═════════┐                                     ┌═════════════════════┐
-█ [${cyan}8${azul}] ${cyan}4IQ ${azul}█                                     █ [${cyan}18${azul}] ${cyan}HAVEIBEENPWNED ${azul}█
+█ [${verde}8${negro}] ${blanco}4IQ ${negro}█                                     █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
 └═════════┘                                     └═════════════════════┘
 ┌══════════════════┐                            ┌════════════════════┐
-█ [${cyan}9${azul}] ${cyan}VIGILANTE PW ${azul}█                            █ [${cyan}19${azul}] ${cyan}BLACKKYTETECH ${azul}█
+█ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                            █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
 └══════════════════┘                            └════════════════════┘
-┌════════════════┐
-█ [${cyan}10${azul}] ${cyan}LEAKCHECK ${azul}█
-└════════════════┘
+┌════════════════┐                              ┌════════════════════════┐
+█ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                              █ [${verde}20${negro}] ${blanco}DARKMUX COMMUNITY ${negro}█
+└════════════════┘                              └════════════════════════┘
 ┃
-└═>>> "${cyan}
+└═>>> "${verde}
 read -r Opcion_Osint
 
-[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ] && break
+[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]|[ "$Opcion_Osint" == "20" ] && break
 
 echo -e "${rojo}
 ┌═════════════════════┐
-█ ${cyan}¡OPCIÓN INCORRECTA! ${rojo}█
+█ ${verde}¡OPCIÓN INCORRECTA! ${rojo}█
 └═════════════════════┘
 "${cyan}
 sleep 1.5
@@ -134,31 +134,34 @@ case $Opcion_Osint in
 		;;
 	19)
 		termux-open https://blackkitetech.com/community/
+                ;;
+        20)
+                termux-open https://t.me/Darkmux_Community
 esac
 
 while :
 do
-echo -e -n "${azul}
+echo -e -n "${negro}
 ┌═════════════════════════════════════┐
-█ ${cyan}¿QUIERES USAR NUEVAMENTE EL SCRIPT? ${azul}█
+█ ${verde}¿QUIERES USAR NUEVAMENTE EL SCRIPT? ${negro}█
 └═════════════════════════════════════┘
 
 ┌═══════════════┐
-█ [${cyan}1${azul}] ┃   ${cyan}SI    ${azul}█
+█ [${verde}1${negro}] ┃   ${blanco}SI    ${negro}█
 █═══════════════█
-█ [${cyan}2${azul}] ┃   ${cyan}NO    ${azul}█
+█ [${verde}2${negro}] ┃   ${blanco}NO    ${negro}█
 └═══════════════┘
 ┃
-└═>>> "${cyan}
+└═>>> "${verde}
 
 read -r Opcion_Reiniciar
 
 [ "$Opcion_Reiniciar" == "1" ]||[ "$Opcion_Reiniciar" == "2" ] && break
 echo -e "${rojo}
 ┌═════════════════════┐
-█ ${cyan}¡OPCIÓN INCORRECTA! ${rojo}█
+█ ${blanco}¡OPCIÓN INCORRECTA! ${rojo}█
 └═════════════════════┘
-"${cyan}
+"${verde}
 sleep 2
 clear
 done
@@ -168,10 +171,10 @@ case $Opcion_Reiniciar in
 		source $HOME/Osint/Osint.sh
 		;;
 	2)
-echo -e "${azul}
+echo -e "${negro}
 ┌════════════════════════════════┐
-█ ${cyan}PARA USAR NUEVAMENTE EL SCRIPT${azul} █
-█ ${cyan}EJECUTE EL COMANDO ./Osint.sh  ${azul}█
+█ ${verde}PARA USAR NUEVAMENTE EL SCRIPT${negro} █
+█ ${verde}EJECUTE EL COMANDO ./Osint.sh  ${negro}█
 └════════════════════════════════┘
-"${cyan}
+"${verde}
 esac
