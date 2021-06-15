@@ -136,7 +136,7 @@ case $Opcion_Osint in
 		termux-open https://blackkitetech.com/community/
                 ;;
         20)
-                termux-open https://osintframework.com/
+                termux-open https://consultas.curp.gob.mx/
 esac
 
 while :
