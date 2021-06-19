@@ -64,19 +64,12 @@ echo -e -n "${negro}
 ┌════════════════┐                          ┌══════════════┐
 █ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                          █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                          └══════════════┘
-
-
-
-
-┌════════════════════════════════════════════┐
-█ [${verde}00${negro}] ${blanco}UNETE A NUESTRA COMUNIDAD EN TELEGRAM ${negro}█
-└════════════════════════════════════════════┘
 ┃
 ┃
 └═>>> "${verde}
 read -r Opcion_Osint
 
-[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]||[ "$Opcion_Osint" == "20" ]||[ "$Opcion_Osint" == "00" ] && break
+[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]||[ "$Opcion_Osint" == "20" ] && break
 
 echo -e "${rojo}
 ┌═════════════════════┐
@@ -146,9 +139,6 @@ case $Opcion_Osint in
                 ;;
         20)
                 termux-open https://www.exploit-db.com/google-hacking-database
-                ;;
-        00)
-                termux-open https://t.me/Darkmux_Community
 esac
 
 while :
