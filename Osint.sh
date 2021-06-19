@@ -138,7 +138,7 @@ case $Opcion_Osint in
 		termux-open https://blackkitetech.com/community/
                 ;;
         20)
-                termux-open https://consultas.curp.gob.mx/
+                termux-open https://www.exploit-db.com/google-hacking-database
 esac
 
 while :
