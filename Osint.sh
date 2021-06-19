@@ -176,7 +176,7 @@ case $Opcion_Reiniciar in
 echo -e "${negro}
 ┌════════════════════════════════┐
 █ ${verde}PARA USAR NUEVAMENTE EL SCRIPT${negro} █
-█ ${verde}EJECUTE EL COMANDO ./Osint.sh  ${negro}█
+█ ${verde}EJECUTE EL COMANDO${blanco} ./Osint.sh  ${negro}█
 └════════════════════════════════┘
 "${verde}
 esac
