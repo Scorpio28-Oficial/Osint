@@ -55,15 +55,17 @@ echo -e -n "${negro}
 ┌════════════════════┐                      ┌════════════════════┐
 █ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                      █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
 └════════════════════┘                      └════════════════════┘
-┌═════════┐                                 ┌═════════════════════┐
-█ [${verde}8${negro}] ${blanco}4IQ ${negro}█                                 █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
-└═════════┘                                 └═════════════════════┘
+┌══════════┐                                 ┌═════════════════════┐
+█ [${verde}8${negro}] ${blanco}spyse ${negro}█                               █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
+└══════════┘                                 └═════════════════════┘
 ┌══════════════════┐                        ┌════════════════════┐
 █ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                        █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
 └══════════════════┘                        └════════════════════┘
 ┌════════════════┐                          ┌══════════════┐
 █ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                          █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                          └══════════════┘
+┌═════════════════┐
+└═════════════════┘
 ┃
 ┃
 └═>>> "${verde}
@@ -102,7 +104,7 @@ case $Opcion_Osint in
 		termux-open https://intelx.io
 		;;
 	8)
-		termux-open https://4iq.com
+		termux-open https://spyse.com/
 		;;
 	9)
 		termux-open https://vigilante.pw
