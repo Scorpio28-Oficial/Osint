@@ -64,6 +64,10 @@ echo -e -n "${negro}
 ┌════════════════┐                          ┌══════════════┐
 █ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                          █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                          └══════════════┘
+
+
+
+
 ┌════════════════════════════════════════════┐
 █ [${verde}00${negro}] ${blanco}UNETE A NUESTRA COMUNIDAD EN TELEGRAM ${negro}█
 └════════════════════════════════════════════┘
