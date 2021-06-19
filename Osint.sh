@@ -12,7 +12,7 @@ source $HOME/Osint/Colors.sh
 # FUNCIONES
 #
 function Osint {
-	time.sleep 5
+	time.sleep 3
 	clear
 echo -e "${verde}
 ${verde}╭━━━╮╭━━━╮╭━━╮${negro}╭━╮ ╭╮╭━━━━╮
@@ -21,7 +21,7 @@ ${verde}┃┃ ┃┃┃╰━━╮ ┃┃ ${negro}┃╭╮╰╯┃╰╯┃�
 ${verde}┃┃ ┃┃╰━━╮┃ ┃┃ ${negro}┃┃╰╮┃┃  ┃┃  
 ${verde}┃╰━╯┃┃╰━╯┃╭┫┣╮${negro}┃┃ ┃┃┃  ┃┃  
 ${verde}╰━━━╯╰━━━╯╰━━╯${negro}╰╯ ╰━╯  ╰╯  WEB
-${negro}==========${verde}Scorpio28${negro}=========="${verde}
+${negro}=========${verde}(${blanco}Scorpio28${verde})${negro}========="${verde}
 }
 #
 # CÓDIGO
