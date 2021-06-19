@@ -55,17 +55,18 @@ echo -e -n "${negro}
 ┌════════════════════┐                      ┌════════════════════┐
 █ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                      █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
 └════════════════════┘                      └════════════════════┘
-┌══════════┐                                 ┌═════════════════════┐
+┌═══════════┐                               ┌═════════════════════┐
 █ [${verde}8${negro}] ${blanco}spyse ${negro}█                               █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
-└══════════┘                                 └═════════════════════┘
+└═══════════┘                               └═════════════════════┘
 ┌══════════════════┐                        ┌════════════════════┐
 █ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                        █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
 └══════════════════┘                        └════════════════════┘
 ┌════════════════┐                          ┌══════════════┐
 █ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                          █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                          └══════════════┘
-┌═════════════════┐
-└═════════════════┘
+┌═════════════════════════════════════┐
+█ [${verde}00${negro}] ${blanco} NUESTRA COMUNIDAD EN TELEGRAM ${negro}█
+└═════════════════════════════════════┘
 ┃
 ┃
 └═>>> "${verde}
