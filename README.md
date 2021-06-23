@@ -3,16 +3,20 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 
 __INSTALACIÓN:__
 
-- apt update && apt upgrade -y
+* apt update && apt upgrade -y
 
-- termux-setup-storage
+* termux-setup-storage
 
-- pkg install -y git
+* pkg install -y git
 
-- git clone https://github.com/Scorpio28-Oficial/Osint
+* pkg install pv -y
 
-- cd Osint
+* git clone https://github.com/Scorpio28-Oficial/Osint
 
-- chmod 777 Osint.sh
+* cd Osint
 
-- ./Osint.sh
+* chmod 777 Osint.sh
+
+* ./Osint.sh
+
+# By: Scorpio28
