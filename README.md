@@ -27,6 +27,3 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 ```
 
 ### By: Scorpio28
-<p align="center">
-	<img src="https://i.imgur.com/FpEqZCq.png" width="600px">
-</p>
