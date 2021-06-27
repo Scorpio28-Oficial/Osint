@@ -1,4 +1,4 @@
-# Osint
+### Osint
 
 <p align="center">
 	<img src="https://i.imgur.com/Y5jdCHI.jpg" width="600px">
@@ -6,8 +6,9 @@
 
 Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia al conjunto de técnicas y herramientas para recopilar información.
 
-__INSTALACIÓN:__
+### INSTALACIÓN:
 
+```
 * apt update && apt upgrade -y
 
 * termux-setup-storage
@@ -23,5 +24,6 @@ __INSTALACIÓN:__
 * chmod 777 Osint.sh
 
 * ./Osint.sh
+```
 
-# By: Scorpio28
+### By: Scorpio28
