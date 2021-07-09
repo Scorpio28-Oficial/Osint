@@ -32,3 +32,5 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 <p align="center">
 	<img src="https://i.imgur.com/rLsEtQf.jpg" width="600px">
 </p>
+
+El Mal Uso Es Responsabilidad de Quien La Utilice...
