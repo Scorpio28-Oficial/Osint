@@ -9,7 +9,7 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 ### INSTALACIÓN:
 
 ```
-* apt update && apt upgrade -y
+* pkg  update && pkg upgrade -y
 
 * termux-setup-storage
 
