@@ -14,6 +14,7 @@ source $HOME/Osint/Colors.sh
 function Osint {
 	time.sleep 3
 	clear
+sleep 0.5
 echo -e "${verde}
 ${verde}╭━━━╮╭━━━╮╭━━╮${negro}╭━╮ ╭╮╭━━━━╮
 ${verde}┃╭━╮┃┃╭━╮┃╰┫┣╯${negro}┃┃╰╮┃┃┃╭╮╭╮┃
