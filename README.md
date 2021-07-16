@@ -15,8 +15,6 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 
 * pkg install -y git
 
-* pkg install pv -y
-
 * git clone https://github.com/Scorpio28-Oficial/Osint
 
 * cd Osint
