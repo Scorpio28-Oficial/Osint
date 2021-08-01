@@ -1,7 +1,7 @@
 ### Osint
 
 <p align="center">
-	<img src="https://i.imgur.com/BVAEJ2b.jpg" width="600px">
+	<img src="https://i.imgur.com/v0wrN2h.jpg" width="600px">
 </p>
 
 Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia al conjunto de técnicas y herramientas para recopilar información.
