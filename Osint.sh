@@ -58,7 +58,7 @@ echo -e -n "${negro}
 █ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                  █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
 └════════════════════┘                  └════════════════════┘
 ┌═══════════┐                           ┌═════════════════════┐
-█ [${verde}8${negro}] ${blanco}spyse ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
+█ [${verde}8${negro}] ${blanco}SPYSE ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
 └═══════════┘                           └═════════════════════┘
 ┌══════════════════┐                    ┌════════════════════┐
 █ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                    █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
@@ -66,12 +66,18 @@ echo -e -n "${negro}
 ┌════════════════┐                      ┌══════════════┐
 █ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                      └══════════════┘
+┌═══════════════════════════════════┐   ┌═════════════════════┐
+█ [${verde}21${negro}]${blanco} BÚSQUEDA DE IMÁGENES INVERSA ${negro}█   █ [${verde}22${negro}]${blanco} REVELAR NOMBRE${negro} █
+└═══════════════════════════════════┘   └═════════════════════┘
+┌═══════════════════════════┐
+█ [${verde}23${negro}]${blanco}BÚSQUEDA DE PERSONAS${negro} █
+└═══════════════════════════┘"
 ┃
 ┃
 └═>>> ${verde}"
 read -r Opcion_Osint
 
-[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]||[ "$Opcion_Osint" == "20" ] && break
+[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]||[ "$Opcion_Osint" == "20" ]||[ "$Opcion_Osint" == "21" ]||[ "$Opcion_Osint" == "22" ]||[ "$Opcion_Osint" == "23" ] && break
 
 echo -e "${rojo}
 ┌═════════════════════┐
@@ -141,6 +147,15 @@ case $Opcion_Osint in
                 ;;
         20)
                 termux-open https://www.exploit-db.com/google-hacking-database
+                ;;
+        21)
+                termux-open https://tineye.com/
+                ;;
+        22)
+                termux-open https://www.revealname.com/
+                ;;
+        23)
+                termux-open https://m.dateas.com/es
 esac
 
 while :
