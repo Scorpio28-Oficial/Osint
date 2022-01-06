@@ -67,7 +67,7 @@ echo -e -n "${negro}
 █ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}22${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                      └══════════════┘
 ┌═══════════════════════════════════┐   ┌═════════════════════┐
-█ [${verde}11${negro}]${blanco} BÚSQUEDA DE IMÁGENES INVERSA ${negro}█   █ [${verde}22${negro}]${blanco} REVELAR NOMBRE${negro} █
+█ [${verde}11${negro}]${blanco} BÚSQUEDA DE IMÁGENES INVERSA ${negro}█   █ [${verde}23${negro}]${blanco} REVELAR NOMBRE${negro} █
 └═══════════════════════════════════┘   └═════════════════════┘
 ┌══════════════════════════┐
 █ [${verde}12${negro}]${blanco}BÚSQUEDA DE PERSONAS${negro} █
