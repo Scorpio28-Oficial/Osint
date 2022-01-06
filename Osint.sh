@@ -37,40 +37,40 @@ echo -e -n "${negro}
       █      └═════════════════════════════┘      █
       █                                           █
 ┌═══════════════════┐                   ┌═════════════════┐
-█ [${verde}1${negro}] ${blanco}CIBERPATRULLA ${negro}█                   █ [${verde}11${negro}] ${blanco}WELEAKINFO ${negro}█
+█ [${verde}1${negro}] ${blanco}CIBERPATRULLA ${negro}█                   █ [${verde}13${negro}] ${blanco}WELEAKINFO ${negro}█
 └═══════════════════┘                   └═════════════════┘
 ┌════════════════┐                      ┌═══════════════┐
-█ [${verde}2${negro}] ${blanco}DUCKDUCKGO ${negro}█                      █ [${verde}12${negro}] ${blanco}LEAKPEEK ${negro}█
+█ [${verde}2${negro}] ${blanco}DUCKDUCKGO ${negro}█                      █ [${verde}14${negro}] ${blanco}LEAKPEEK ${negro}█
 └════════════════┘                      └═══════════════┘
 ┌═══════════════════════════════┐       ┌═══════════════┐
-█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█       █ [${verde}13${negro}] ${blanco}RSLOOKUP ${negro}█
+█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█       █ [${verde}15${negro}] ${blanco}RSLOOKUP ${negro}█
 └═══════════════════════════════┘       └═══════════════┘
 ┌═════════════════════════┐             ┌═══════════════┐
-█ [${verde}4${negro}] ${blanco}NOMBRES DE USUARIOS ${negro}█             █ [${verde}14${negro}] ${blanco}SNUSBASE ${negro}█
+█ [${verde}4${negro}] ${blanco}NOMBRES DE USUARIOS ${negro}█             █ [${verde}16${negro}] ${blanco}SNUSBASE ${negro}█
 └═════════════════════════┘             └═══════════════┘
 ┌═══════════════════════════════┐       ┌═════════════════════┐
-█ [${verde}5${negro}] ${blanco}EVALUACIÓN Y CERTIFICADOS ${negro}█       █ [${verde}15${negro}] ${blanco}LEAKEDSOURERCE ${negro}█
+█ [${verde}5${negro}] ${blanco}EVALUACIÓN Y CERTIFICADOS ${negro}█       █ [${verde}17${negro}] ${blanco}LEAKEDSOURERCE ${negro}█
 └═══════════════════════════════┘       └═════════════════════┘
 ┌═════════════┐                         ┌══════════════════┐
-█ [${verde}6${negro}] ${blanco}LEAK SX ${negro}█                         █ [${verde}16${negro}] ${blanco}LEAK-LOOKUP ${negro}█
+█ [${verde}6${negro}] ${blanco}LEAK SX ${negro}█                         █ [${verde}18${negro}] ${blanco}LEAK-LOOKUP ${negro}█
 └═════════════┘                         └══════════════════┘
 ┌════════════════════┐                  ┌════════════════════┐
-█ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                  █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
+█ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                  █ [${verde}19${negro}] ${blanco}BREACHCHECHER ${negro}█
 └════════════════════┘                  └════════════════════┘
 ┌═══════════┐                           ┌═════════════════════┐
-█ [${verde}8${negro}] ${blanco}SPYSE ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
+█ [${verde}8${negro}] ${blanco}SPYSE ${negro}█                           █ [${verde}20${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
 └═══════════┘                           └═════════════════════┘
 ┌══════════════════┐                    ┌════════════════════┐
-█ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                    █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
+█ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                    █ [${verde}21${negro}] ${blanco}BLACKKYTETECH ${negro}█
 └══════════════════┘                    └════════════════════┘
 ┌════════════════┐                      ┌══════════════┐
-█ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
+█ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}22${negro}] ${blanco}OSINTFW ${negro}█
 └════════════════┘                      └══════════════┘
 ┌═══════════════════════════════════┐   ┌═════════════════════┐
-█ [${verde}21${negro}]${blanco} BÚSQUEDA DE IMÁGENES INVERSA ${negro}█   █ [${verde}22${negro}]${blanco} REVELAR NOMBRE${negro} █
+█ [${verde}11${negro}]${blanco} BÚSQUEDA DE IMÁGENES INVERSA ${negro}█   █ [${verde}22${negro}]${blanco} REVELAR NOMBRE${negro} █
 └═══════════════════════════════════┘   └═════════════════════┘
 ┌══════════════════════════┐
-█ [${verde}23${negro}]${blanco}BÚSQUEDA DE PERSONAS${negro} █
+█ [${verde}12${negro}]${blanco}BÚSQUEDA DE PERSONAS${negro} █
 └══════════════════════════┘
 ┃
 ┃
@@ -117,45 +117,46 @@ case $Opcion_Osint in
 		;;
 	10)
 		termux-open https://leakcheck.net/
-		;;
-	11)
-		termux-open https://weleakinfo.to
-		;;
-	12)
-		termux-open https://leakpeek.com
-		;;
-	13)
-		termux-open https://rslookup.com/index
-		;;
-	14)
-		termux-open https://snusbase.com
-		;;
-	15)
-		termux-open https://leakedsource.ru/
-		;;
-	16)
-		termux-open https://leak-lookup.com
-		;;
-	17)
-		termux-open https://breachchecker.com/?language=es
-		;;
-	18)
-		termux-open https://haveibeenpwned.com/
-		;;
-	19)
-		termux-open https://blackkitetech.com/community/
                 ;;
-        20)
-                termux-open https://www.exploit-db.com/google-hacking-database
-                ;;
-        21)
+        11)
                 termux-open https://tineye.com/
                 ;;
+        12)
+		termux-open https://weleakinfo.to
+		;;
+        13)
+		termux-open https://leakpeek.com
+                ;;
+        14)
+		termux-open https://rslookup.com/index
+                ;;
+	15)
+		termux-open https://snusbase.com
+		;;
+	16)
+		termux-open https://leakedsource.ru/
+		;;
+	17)
+		termux-open https://leak-lookup.com
+		;;
+	18)
+		termux-open https://breachchecker.com/?language=es
+		;;
+	19)
+		termux-open https://haveibeenpwned.com/
+		;;
+	20)
+		termux-open https://blackkitetech.com/community/
+                ;;
+        21)
+                termux-open https://www.exploit-db.com/google-hacking-database
+                ;;
         22)
-                termux-open https://www.revealname.com/
+                termux-open https://m.dateas.com/es
                 ;;
         23)
-                termux-open https://m.dateas.com/es
+                termux-open https://www.revealname.com/
+                
 esac
 
 while :
