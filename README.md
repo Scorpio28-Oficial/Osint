@@ -24,7 +24,12 @@ Es una herramienta creada en bash la cual es una Fuente Abierta, hace referencia
 * ./Osint.sh
 ```
 
-### By: Scorpio28
+<li>
+<a href="https://t.me/Informatic_in_Termux">Informatic in Termux</a>
+</li>
+
+###### Creator: Scorpio28
+
 
 ### Captura:
 <p align="center">
